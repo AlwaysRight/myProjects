@@ -1,0 +1,80 @@
+# form of events understood by osevents-view:
+#
+#   @usecs  processID  oldState	 ->  newState  [sector]
+#
+@timequantum	20000
+@diskrpm	5400
+@disksectors	64
+@1100000     0	admit   -> ready
+@1100000     0	ready   -> running
+@1120000     0	running -> running
+@1140000     0	running -> read		18
+@1147570     0	blocked -> ready	18
+@1147570     0	ready   -> running
+@1152570     0	running -> read		20
+@1159028     0	blocked -> ready	20
+@1159028     0	ready   -> running
+@1174028     0	running -> read		12
+@1179862     0	blocked -> ready	12
+@1179862     0	ready   -> running
+@1199862     0	running -> running
+@1219862     0	running -> exit
+@1600000     1	admit   -> ready
+@1600000     1	ready   -> running
+@1620000     1	running -> running
+@1630000     1	running -> read		20
+@1636806     1	blocked -> ready	20
+@1636806     1	ready   -> running
+@1656806     1	running -> running
+@1676806     1	running -> running
+@1686806     1	running -> write	0
+@1688889     1	write   -> verify	0
+@1700000     1	blocked -> ready	0
+@1700000     1	ready   -> running
+@1720000     1	running -> running
+@1740000     1	running -> running
+@1760000     1	running -> running
+@1780000     1	running -> running
+@1800000     1	running -> running
+@1820000     1	running -> running
+@1840000     1	running -> running
+@1860000     1	running -> running
+@1880000     1	running -> running
+@1900000     1	running -> running
+@1920000     1	running -> running
+@1940000     1	running -> running
+@1960000     1	running -> running
+@1980000     1	running -> running
+@2000000     1	running -> running
+@2020000     1	running -> running
+@2040000     1	running -> running
+@2060000     1	running -> running
+@2080000     1	running -> running
+@2100000     1	running -> running
+@2120000     1	running -> running
+@2140000     1	running -> running
+@2160000     1	running -> running
+@2180000     1	running -> running
+@2200000     1	running -> running
+@2220000     1	running -> running
+@2240000     1	running -> running
+@2260000     1	running -> running
+@2280000     1	running -> running
+@2300000     1	running -> running
+@2320000     1	running -> running
+@2340000     1	running -> running
+@2360000     1	running -> running
+@2380000     1	running -> running
+@2400000     1	running -> running
+@2420000     1	running -> running
+@2440000     1	running -> running
+@2460000     1	running -> running
+@2480000     1	running -> running
+@2500000     1	running -> running
+@2520000     1	running -> running
+@2540000     1	running -> running
+@2560000     1	running -> running
+@2580000     1	running -> running
+@2600000     1	running -> running
+@2620000     1	running -> exit
+1139862	26668	13194
