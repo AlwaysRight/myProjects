@@ -2,7 +2,8 @@
 这个repository选取了自己独立完成的几个较有趣的应用。
 ## 1. c
   ### 1.1 Event dealer
-      模拟进程处理事务的队列，时间驱动来更改进程的状态
+      模拟进程处理事务的队列，时间驱动来更改进程的状态 
+      http://teaching.csse.uwa.edu.au/units/CITS2002/projects/project1.php
   ### 1.2 FTPCloud
       涉及到socket, 分为客户端和服务端，通过socket通信，传递关于文件的命令（上传、查询、删除等）并执行
   ### 1.3 FightThroungProcess
