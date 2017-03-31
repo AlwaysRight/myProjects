@@ -1,11 +1,4 @@
 /*
- 4: Student Name: Siqi Cao
- 5: Terp Connect login ID: scao
- 6: UID Number: 114545657
- 7: Section number: 0301
- 8:
- 9: I pledge on my honor that I have not given or received
- 10: any unauthorized assistance on this assignment.
  */
 
 #include <stdio.h>
